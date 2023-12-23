@@ -50,7 +50,7 @@ module.exports = {
       where: { chapterId: chapterData.id },
     });
 
-    const duration = await utils.getVideoDuration(allMaterialsByChapterId);
+    // const duration = await utils.getVideoDuration(allMaterialsByChapterId);
 
     await chapter.update({
       where: {
